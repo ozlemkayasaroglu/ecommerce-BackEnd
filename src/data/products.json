@@ -1,85 +1,128 @@
-{
-  "products": [
-    {
-      "id": 1,
-      "name": "Vitamin Contraption",
-      "category": "Health",
-      "image": "https://robohash.org/doloremquesintcorrupti.png",
-      "price": "82",
-      "description": "Proin in mi ex.",
-      "features": "Vivamus eu leo vitae massa accumsan fermentum eu a mauris. Sed sit amet ex eros. Ut interdum laoreet elementum. Donec quis elit sit amet justo porttitor condimentum et nec urna. Integer ultricies viverra ipsum id luctus. Aliquam quis euismod felis. Ut varius sapien felis, sed maximus nisl molestie id."
-    },
-    {
-      "id": 2,
-      "name": "Vitamin Machine",
-      "category": "Health",
-      "image": "https://robohash.org/consequunturautconsequatur.png",
-      "price": "56",
-      "description": "Nam varius magna et dolor tristique pretium",
-      "features": "Curabitur ut dolor scelerisque eros hendrerit vestibulum vel eget massa. Sed finibus dolor at mauris rhoncus, et ornare est venenatis. Maecenas erat magna, viverra a posuere at, pellentesque et eros. Mauris ac sapien a est dictum volutpat. Fusce massa ipsum, ultricies ut commodo vitae, semper sit amet dui. Cras nec turpis eu enim vestibulum condimentum eu eget nunc. Pellentesque faucibus tempor mi eget tincidunt. Integer ipsum ante, eleifend id ante aliquam, feugiat efficitur sapien. Integer tellus nisi, auctor ut sapien id, eleifend ultricies nisl. Aliquam malesuada commodo laoreet. Quisque elementum interdum quam at luctus. Sed luctus molestie augue eu luctus."
-    },
-    {
-      "id": 3,
-      "name": "Movie Component",
-      "category": "Entertainment",
-      "image": "https://robohash.org/facilisdignissimosdolore.png",
-      "price": "62",
-      "description": "Nunc faucibus nec diam mattis semper",
-      "features": "Aenean pharetra maximus orci. Cras aliquam pharetra libero nec varius. Quisque nec libero odio. Nulla facilisi. Sed placerat semper finibus. Nulla eu rutrum dolor. Aliquam rutrum est est, vitae semper nisi sodales vitae. Ut maximus pretium ex sit amet malesuada. Cras pharetra iaculis urna porttitor vestibulum. Nunc pulvinar dui eu vulputate sagittis. Sed vel metus turpis. Integer lacinia, lacus sed accumsan tristique, nibh orci posuere turpis, nec placerat mauris tellus ac mi. Nunc velit mi, tincidunt faucibus eleifend ac, iaculis in nulla."
-    },
-    {
-      "id": 4,
-      "name": "Cooking Item",
-      "category": "Home",
-      "image": "https://robohash.org/facilisdignissimosdolore.png",
-      "price": "40",
-      "description": "Cras accumsan faucibus purus a consequat",
-      "features": "Phasellus eget fringilla justo. Integer sem mauris, viverra non ligula sagittis, consectetur pharetra tortor. Donec et varius leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra mollis ante, eget vestibulum turpis vestibulum vel. Donec dictum, tellus vitae fermentum egestas, erat leo tristique orci, ut aliquet lectus massa sed mauris. Integer viverra hendrerit nisl a vulputate. Pellentesque finibus auctor nisl, nec aliquet magna cursus ut."
-    },
-    {
-      "id": 5,
-      "name": "Vitamin Gear",
-      "category": "Health",
-      "image": "https://robohash.org/consequunturabnon.png",
-      "price": "39.99",
-      "description": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos deneme",
-      "features": "deneme Praesent aliquam tellus lobortis arcu rutrum, ac tincidunt arcu egestas. Suspendisse a auctor tortor, in lacinia massa. Suspendisse eleifend vulputate urna vitae ultricies. Praesent gravida convallis ipsum a euismod. Phasellus vitae diam diam. Maecenas ac enim varius, sagittis arcu porta, venenatis felis. Sed luctus metus velit, ut molestie ipsum auctor quis. Etiam malesuada et enim nec gravida. Nunc pharetra lectus odio, non tempus velit dictum et. Suspendisse dignissim mi nec dolor rutrum semper."
-    },
-    {
-      "id": 6,
-      "name": "Toy Apparatus",
-      "category": "Entertainment",
-      "image": "https://robohash.org/trescolcoffee.png",
-      "price": "23.99",
-      "description": "Quisque laoreet ullamcorper consequat",
-      "features": "Maecenas maximus condimentum efficitur. Phasellus vitae ullamcorper lectus, non mattis augue. Phasellus vel efficitur ipsum. Praesent tempus porttitor ante, ut efficitur diam mollis vel. Vestibulum quis accumsan turpis. Integer accumsan, felis quis fringilla dignissim, nisl magna pulvinar lacus, nec aliquam mauris enim ut risus. In ultrices tempus nibh, rutrum dictum quam faucibus quis. Donec ut nunc nec nisl elementum consectetur."
-    },
-    {
-      "id": 7,
-      "name": "Engine Rig",
-      "category": "Automotive",
-      "image": "https://robohash.org/enginerig.png",
-      "price": "164",
-      "description": "Proin vehicula felis non ligula sollicitudin placerat ut nec mauris",
-      "features": "Praesent sit amet sem tempor, blandit risus id, aliquam metus. Fusce convallis consequat sodales. Nam dignissim consequat finibus. Sed condimentum finibus neque, ut tincidunt ipsum lobortis vel. Vivamus sed rutrum nisl, sed hendrerit ipsum. Nullam volutpat ut dui nec gravida. In non malesuada tortor. Nullam gravida nulla vel ante condimentum volutpat. Donec et odio ac leo elementum lacinia. Integer consequat vulputate dolor a maximus. Maecenas ut commodo lacus. Donec dictum est nec auctor condimentum. Nam maximus dapibus lacus ut ultricies. Praesent vulputate dapibus risus, quis suscipit arcu pellentesque eget. Nam malesuada lorem ut lacus tincidunt, id pellentesque velit pulvinar. Nulla facilisi."
-    },
-    {
-      "id": 8,
-      "name": "Cooking Implement",
-      "category": "Home",
-      "image": "https://robohash.org/cookingImplement.png",
-      "price": "125.95",
-      "description": "saMorbi odio eros, euismod eget sapien non, placerat vehicula exa",
-      "features": "Nunc viverra fringilla purus nec pellentesque. Nulla pellentesque sagittis mi, id lacinia nisl fringilla a. Suspendisse potenti. Sed vel sem quis sapien cursus convallis placerat sit amet sapien. Sed mollis imperdiet metus vel malesuada. Curabitur vel dignissim nunc. Morbi dapibus imperdiet elit at blandit. Donec non feugiat quam, et vestibulum felis. Donec venenatis enim vitae ante pellentesque sollicitudin. Donec sed pretium risus, eget vestibulum lacus. Donec sed tempus velit. In elementum lectus vitae facilisis faucibus. Aliquam elementum aliquet nulla, posuere venenatis nisi laoreet at. Suspendisse ac nulla dui. Cras at semper elit."
-    },
-    {
-      "id": 9,
-      "image": "https://robohash.org/doloremquesintcorrupti.png",
-      "name": "dada",
-      "category": "da",
-      "price": "200",
-      "description": "adadad",
-      "features": "sadada"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "name": "Vitamin Contraption",
+    "category": "Health",
+    "image": "https://robohash.org/doloremquesintcorrupti.png",
+    "price": "82",
+    "description": "Proin in mi ex.",
+    "features": "Vivamus eu leo vitae massa accumsan fermentum eu a mauris. Sed sit amet ex eros. Ut interdum laoreet elementum. Donec quis elit sit amet justo porttitor condimentum et nec urna. Integer ultricies viverra ipsum id luctus. Aliquam quis euismod felis. Ut varius sapien felis, sed maximus nisl molestie id."
+  },
+  {
+    "id": 2,
+    "name": "Vitamin Machine",
+    "category": "Health",
+    "image": "https://robohash.org/consequunturautconsequatur.png",
+    "price": "56",
+    "description": "Nam varius magna et dolor tristique pretium",
+    "features": "Curabitur ut dolor scelerisque eros hendrerit vestibulum vel eget massa. Sed finibus dolor at mauris rhoncus, et ornare est venenatis. Maecenas erat magna, viverra a posuere at, pellentesque et eros. Mauris ac sapien a est dictum volutpat. Fusce massa ipsum, ultricies ut commodo vitae, semper sit amet dui. Cras nec turpis eu enim vestibulum condimentum eu eget nunc. Pellentesque faucibus tempor mi eget tincidunt. Integer ipsum ante, eleifend id ante aliquam, feugiat efficitur sapien. Integer tellus nisi, auctor ut sapien id, eleifend ultricies nisl. Aliquam malesuada commodo laoreet. Quisque elementum interdum quam at luctus. Sed luctus molestie augue eu luctus."
+  },
+  {
+    "id": 3,
+    "name": "Movie Component",
+    "category": "Entertainment",
+    "image": "https://robohash.org/facilisdignissimosdolore.png",
+    "price": "62",
+    "description": "Nunc faucibus nec diam mattis semper",
+    "features": "Aenean pharetra maximus orci. Cras aliquam pharetra libero nec varius. Quisque nec libero odio. Nulla facilisi. Sed placerat semper finibus. Nulla eu rutrum dolor. Aliquam rutrum est est, vitae semper nisi sodales vitae. Ut maximus pretium ex sit amet malesuada. Cras pharetra iaculis urna porttitor vestibulum. Nunc pulvinar dui eu vulputate sagittis. Sed vel metus turpis. Integer lacinia, lacus sed accumsan tristique, nibh orci posuere turpis, nec placerat mauris tellus ac mi. Nunc velit mi, tincidunt faucibus eleifend ac, iaculis in nulla."
+  },
+  {
+    "id": 4,
+    "name": "Cooking Item",
+    "category": "Home",
+    "image": "https://robohash.org/facilisdignissimosdolore.png",
+    "price": "40",
+    "description": "Cras accumsan faucibus purus a consequat",
+    "features": "Phasellus eget fringilla justo. Integer sem mauris, viverra non ligula sagittis, consectetur pharetra tortor. Donec et varius leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra mollis ante, eget vestibulum turpis vestibulum vel. Donec dictum, tellus vitae fermentum egestas, erat leo tristique orci, ut aliquet lectus massa sed mauris. Integer viverra hendrerit nisl a vulputate. Pellentesque finibus auctor nisl, nec aliquet magna cursus ut."
+  },
+  {
+    "id": 5,
+    "name": "Vitamin Gear",
+    "category": "Health",
+    "image": "https://robohash.org/consequunturabnon.png",
+    "price": "39.99",
+    "description": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos deneme",
+    "features": "deneme Praesent aliquam tellus lobortis arcu rutrum, ac tincidunt arcu egestas. Suspendisse a auctor tortor, in lacinia massa. Suspendisse eleifend vulputate urna vitae ultricies. Praesent gravida convallis ipsum a euismod. Phasellus vitae diam diam. Maecenas ac enim varius, sagittis arcu porta, venenatis felis. Sed luctus metus velit, ut molestie ipsum auctor quis. Etiam malesuada et enim nec gravida. Nunc pharetra lectus odio, non tempus velit dictum et. Suspendisse dignissim mi nec dolor rutrum semper."
+  },
+  {
+    "id": 6,
+    "name": "Toy Apparatus",
+    "category": "Entertainment",
+    "image": "https://robohash.org/trescolcoffee.png",
+    "price": "23.99",
+    "description": "Quisque laoreet ullamcorper consequat",
+    "features": "Maecenas maximus condimentum efficitur. Phasellus vitae ullamcorper lectus, non mattis augue. Phasellus vel efficitur ipsum. Praesent tempus porttitor ante, ut efficitur diam mollis vel. Vestibulum quis accumsan turpis. Integer accumsan, felis quis fringilla dignissim, nisl magna pulvinar lacus, nec aliquam mauris enim ut risus. In ultrices tempus nibh, rutrum dictum quam faucibus quis. Donec ut nunc nec nisl elementum consectetur."
+  },
+  {
+    "id": 7,
+    "name": "Engine Rig",
+    "category": "Automotive",
+    "image": "https://robohash.org/enginerig.png",
+    "price": "164",
+    "description": "Proin vehicula felis non ligula sollicitudin placerat ut nec mauris",
+    "features": "Praesent sit amet sem tempor, blandit risus id, aliquam metus. Fusce convallis consequat sodales. Nam dignissim consequat finibus. Sed condimentum finibus neque, ut tincidunt ipsum lobortis vel. Vivamus sed rutrum nisl, sed hendrerit ipsum. Nullam volutpat ut dui nec gravida. In non malesuada tortor. Nullam gravida nulla vel ante condimentum volutpat. Donec et odio ac leo elementum lacinia. Integer consequat vulputate dolor a maximus. Maecenas ut commodo lacus. Donec dictum est nec auctor condimentum. Nam maximus dapibus lacus ut ultricies. Praesent vulputate dapibus risus, quis suscipit arcu pellentesque eget. Nam malesuada lorem ut lacus tincidunt, id pellentesque velit pulvinar. Nulla facilisi."
+  },
+  {
+    "id": 8,
+    "name": "Cooking Implement",
+    "category": "Home",
+    "image": "https://robohash.org/cookingImplement.png",
+    "price": "125.95",
+    "description": "saMorbi odio eros, euismod eget sapien non, placerat vehicula exa",
+    "features": "Nunc viverra fringilla purus nec pellentesque. Nulla pellentesque sagittis mi, id lacinia nisl fringilla a. Suspendisse potenti. Sed vel sem quis sapien cursus convallis placerat sit amet sapien. Sed mollis imperdiet metus vel malesuada. Curabitur vel dignissim nunc. Morbi dapibus imperdiet elit at blandit. Donec non feugiat quam, et vestibulum felis. Donec venenatis enim vitae ante pellentesque sollicitudin. Donec sed pretium risus, eget vestibulum lacus. Donec sed tempus velit. In elementum lectus vitae facilisis faucibus. Aliquam elementum aliquet nulla, posuere venenatis nisi laoreet at. Suspendisse ac nulla dui. Cras at semper elit."
+  },
+  {
+    "id": 9,
+    "image": "https://robohash.org/doloremquesintcorrupti.png",
+    "name": "dada",
+    "category": "da",
+    "price": "200",
+    "description": "adadad",
+    "features": "sadada"
+  },
+  {
+    "id": 10,
+    "name": "sarıcık robot",
+    "image": "https://robohash.org/0HW.png",
+    "price": "50",
+    "category": "entertainment",
+    "description": "her sarı eşyayı alır sever",
+    "features": "çok özelliklidir.."
+  },
+  {
+    "id": 11,
+    "name": "maviş robot",
+    "image": "https://robohash.org/217.131.119.112.png",
+    "price": "50",
+    "category": "entertainment",
+    "description": "her mavi eşyayı alır sever",
+    "features": "çok özelliklidir.."
+  },
+  {
+    "id": 12,
+    "name": "huduu",
+    "image": "https://robohash.org/V2T.png",
+    "price": "40",
+    "category": "work",
+    "description": "deneme evimizdeki ağaçta üretildi",
+    "features": "dada."
+  },
+  {
+    "id": 13,
+    "name": "mor robot",
+    "image": "https://robohash.org/40F.png",
+    "price": "50",
+    "category": "entertainment",
+    "description": "her mor eşyayı alır sever",
+    "features": "çok özelliklidir.."
+  },
+  {
+    "id": 14,
+    "image": "https://robohash.org/V2T.png",
+    "name": "voodoo",
+    "category": "work",
+    "price": "50",
+    "description": "deneme evimizdeki ağaçta üretildi",
+    "features": "dada."
+  }
+]
