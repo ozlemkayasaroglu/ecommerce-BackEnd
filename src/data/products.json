@@ -124,5 +124,14 @@
     "price": "50",
     "description": "deneme evimizdeki ağaçta üretildi",
     "features": "dada."
+  },
+  {
+    "id": 15,
+    "image": "https://robohash.org/V2T.png",
+    "name": "voodoo",
+    "category": "work",
+    "price": "50",
+    "description": "deneme evimizdeki ağaçta üretildi",
+    "features": "dada."
   }
 ]

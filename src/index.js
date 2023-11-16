@@ -31,23 +31,94 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(cookieParser());
 
-// const getUsers = () => {
-//   return new Promise((resolve, reject) => {
-//     fs.readFile(userDataPath, "utf8", (err, data) => {
-//       if (err) {
-//         reject(err);
-//       } else {
-//         resolve(JSON.parse(data));
-//       }
-//     });
-//   });
-// };
+//USERS
 
-// //
-// router.get("/users", async (req, res) => {
-//   const users = await getUsers();
-//   res.json(users);
-// });
+const getUsers = () => {
+  return new Promise((resolve, reject) => {
+    fs.readFile(userDataPath, "utf8", (err, data) => {
+      if (err) {
+        reject(err);
+      } else {
+        resolve(JSON.parse(data));
+      }
+    });
+  });
+};
+
+// tüm kullanıcıların listesi
+router.get("/users", async (req, res) => {
+  getUsers()
+    .then((data) => {
+      res.json(data);
+    })
+    .catch((err) => {
+      res.status(401).end();
+    });
+});
+
+// tek bir kullanıcı
+router.get("/users/:id", async (req, res) => {
+  const users = await getUsers();
+  const userId = parseInt(req.params.id);
+
+  const user = users.users.find((user) => user.id === userId);
+  if (user) {
+    res.json(user);
+    console.log(user);
+  } else [res.status(404).json({ message: "kullanıcı bulunamadı" })];
+});
+
+// kullanıcı oluşturma
+
+const addUsers = async (user) => {
+  try {
+    const users = await getUsers();
+    const newUserId = users.users.length + 1;
+
+    const newUser = {
+      id: newUserId,
+      ...user,
+    };
+    users.users.push(newUser);
+    await fs.writeFile(userDataPath, JSON.stringify(users, null, 2), (err) => {
+      if (err){
+        console.error("kullanıcı oluşturulurken dosyaya yazma hatası:", err);
+      }
+      });
+
+  } catch (err) {
+    
+  }
+};
+router.post("/users/", async (req, res) => {
+  try {
+
+    //adres kısmı frontendde de büyük bir sıkıntı address.address bölümleri......
+    const {image, firstName, lastName, username, phone, age, email, address, company}= req.body;
+    const newUser = {
+      image,
+      firstName,
+      lastName,
+      username,
+      phone,
+      age,
+      email,
+      address,
+      company
+    }
+await addUsers(newUser);
+res.json({message: "kullanıcı başarıyla oluşturuldu"});
+  } 
+  catch (error) {
+    console.error("urun yaratma hatası:", error);
+    res.status(500).json({error: "urun yaratma işlemi başarısız oldu"})
+  }
+});
+
+
+// kullanıcı güncelle
+
+// kullanıcıyı sil
 
 //PRODUCTS
 
