@@ -87,7 +87,7 @@ const addUsers = async (user) => {
       });
 
   } catch (err) {
-    
+    console.error("Kullanıcı eklenirken hata:", err);
   }
 };
 router.post("/users/", async (req, res) => {
