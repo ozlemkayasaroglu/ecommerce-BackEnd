@@ -133,5 +133,14 @@
     "price": "50",
     "description": "deneme evimizdeki ağaçta üretildi",
     "features": "dada."
+  },
+  {
+    "id": 16,
+    "image": "https://robohash.org/%C3%BCr%C3%BCn",
+    "name": "rohuk",
+    "category": "Home Dec",
+    "price": "243",
+    "description": "qweqewe",
+    "features": "bu decorasyon iyidit hoştur"
   }
 ]
