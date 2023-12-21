@@ -2,6 +2,7 @@ import express from "express";
 import path, { dirname, resolve } from "path";
 import fs from "fs";
 import { fileURLToPath } from "url";
+
 const router = express.Router();
 
 const __filename = fileURLToPath(import.meta.url);
@@ -59,6 +60,7 @@ router.post("/", async (request, response) => {
     response.status(401).json({ message: "kullanıcı kayıt hatası" });
   }
 });
+
 
 // mevcut kullanıcıyı güncelle
 router.put("/:id", async (request, response) => {

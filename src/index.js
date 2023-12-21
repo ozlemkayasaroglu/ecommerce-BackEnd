@@ -8,7 +8,7 @@ import cookieParser from "cookie-parser";
 
 // controllers
 import userController from './controllers/userController.js';
-// import productController from './controllers/productController.js';
+import productController from './controllers/productController.js';
 
 const app = express();
 const router = express.Router();
@@ -17,13 +17,13 @@ const router = express.Router();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const userDataPath = path.join(__dirname, "..", "src", "data", "users.json");
-// const productDataPath = path.join(
-//   __dirname,
-//   "..",
-//   "src",
-//   "data",
-//   "products.json"
-// );
+const productDataPath = path.join(
+  __dirname,
+  "..",
+  "src",
+  "data",
+  "products.json"
+);
 
 const LOCAL_HOST = process.env.LOCAL_HOST || "http://localhost:3000";
 var corsOptions = {
@@ -40,61 +40,9 @@ app.use(cookieParser());
 
 
 app.use('/user', userController);
-// app.use('/product', productController);
+app.use('/product', productController);
 
-//USERS
 
-// // GÜNCELLEME ROUTER
-// router.put("/user/:id", (req, res) => {
-//   const userId = req.params.id;
-//   const updatedUser = req.body;
-//   const isUpdated = updateUser(userId, updatedUser);
-
-//   if (isUpdated) {
-//     res.json({ message: "Ürün güncellendi" });
-//   } else {
-//     res.status(404).json({ message: "Ürün bulunamadı veya güncellenemedi." });
-//   }
-// });
-
-// kullanıcıyı sil
-// // SİLME FONKSİYONU
-// const deleteProduct = async (id) => {
-//   try {
-//     const products = await getProducts();
-//     const productIndex = products.findIndex(
-//       (product) => product.id === Number(id)
-//     );
-//     if (productIndex !== -1) {
-//       products.splice(productIndex, 1);
-//       await fs.promises.writeFile(
-//         productDataPath,
-//         JSON.stringify(products, null, 2)
-//       );
-//       return true;
-//     }
-//     return false;
-//     // Ürün bulunamadı
-//   } catch (error) {
-//     console.error("ürün silme hatası:", error);
-//     return false;
-//   }
-// };
-
-// // bir ürün sil
-// router.delete("/product/:id", async (req, res) => {
-//   const id = parseInt(req.params.id);
-//   const result = await deleteProduct(id);
-//   if (result) {
-//     res.json({ message: "ürün silindi" });
-//   } else {
-//     res
-//       .status(404)
-//       .json({ message: "ürün bulunmadı veya silme işlemi başarısız oldu" });
-//   }
-// });
-
-//PRODUCTS
 
 const getProducts = () => {
   return new Promise((resolve, reject) => {
