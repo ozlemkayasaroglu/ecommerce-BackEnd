@@ -28,12 +28,8 @@
   },
   {
     "id": 4,
-    "name": "Cooking Item",
-    "category": "Home",
-    "image": "https://robohash.org/facilisdignissimosdolore.png",
-    "price": "40",
-    "description": "Cras accumsan faucibus purus a consequat",
-    "features": "Phasellus eget fringilla justo. Integer sem mauris, viverra non ligula sagittis, consectetur pharetra tortor. Donec et varius leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra mollis ante, eget vestibulum turpis vestibulum vel. Donec dictum, tellus vitae fermentum egestas, erat leo tristique orci, ut aliquet lectus massa sed mauris. Integer viverra hendrerit nisl a vulputate. Pellentesque finibus auctor nisl, nec aliquet magna cursus ut."
+    "name": "mor robot",
+    "image": "https://robohash.org/40F.png"
   },
   {
     "id": 5,
@@ -136,11 +132,11 @@
   },
   {
     "id": 16,
-    "image": "https://robohash.org/%C3%BCr%C3%BCn",
-    "name": "rohuk",
-    "category": "Home Dec",
-    "price": "243",
+    "image": "httpdas://robohash.org/%C3%BCr%C3%BCn",
+    "name": "darohuk",
+    "category": "Hodame Dec",
+    "price": "3",
     "description": "qweqewe",
-    "features": "bu decorasyon iyidit hoştur"
+    "features": "bu decorasyon iyidit hoşdadadadatur"
   }
 ]
