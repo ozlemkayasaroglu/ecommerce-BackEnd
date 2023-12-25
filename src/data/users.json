@@ -7,7 +7,7 @@
     "age": 49,
     "gender": "male",
     "email": "yraigatt3@nature.com",
-    "phone": "+86 461 145 4186",
+    "phone": "864611454186",
     "username": "yraigatt3",
     "password": "sRQxjPfdS",
     "birthDate": "1969-01-16",
@@ -24,13 +24,7 @@
     "ip": "243.20.78.113",
     "address": {
       "address": "150 Carter Street",
-      "city": "Manchester",
-      "coordinates": {
-        "lat": 41.76556000000001,
-        "lng": -72.473091
-      },
-      "postalCode": "06040",
-      "state": "CT"
+      "city": "Manchester"
     },
     "macAddress": "03:45:58:59:5A:7B",
     "university": "Shenyang Pharmaceutical University",
@@ -44,15 +38,7 @@
     "company": {
       "address": "210 Green Road",
       "city": "Manchester",
-      "coordinates": {
-        "lat": 41.7909099,
-        "lng": -72.51195129999999
-      },
-      "postalCode": "06042",
-      "state": "CT",
-      "department": "Business Development",
-      "name": "Wolff and Sons",
-      "title": "Paralegal"
+      "name": "Wolff and Sons"
     },
     "ein": "71-3644334",
     "ssn": "487-28-6642",
@@ -1684,90 +1670,5 @@
     "ein": "51-7727524",
     "ssn": "534-76-0952",
     "userAgent": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.66 Safari/535.11"
-  },
-  {
-    "id": 32,
-    "image": "https://robohash.org/perferendisideveniet.png",
-    "firstName": "Özlem",
-    "lastName": "Acar",
-    "username": "dad",
-    "phone": "05424993977",
-    "age": "da",
-    "email": "ozlemkayasaroglu@gmail.com",
-    "address": {
-      "address": "Tunahan Mah. 254.sk Sarıgül Sitesi B2-31 Blok Kat:13 Kapı No:54\nB231 BLOK NO:54 KAT:13",
-      "city": "da"
-    },
-    "company": {
-      "address": "adda",
-      "city": "da",
-      "name": "da"
-    }
-  },
-  {
-    "id": 42,
-    "image": "https://robohash.org/robu",
-    "firstName": "John",
-    "lastName": "Doe",
-    "username": "johndoe",
-    "phone": "+1234567890",
-    "age": 30,
-    "email": "john@example.com",
-    "address": {
-      "address": "123 Main St",
-      "city": "Anytown"
-    },
-    "company": {
-      "address": "456 Business Ave",
-      "city": "Metropolis",
-      "name": "ABC Inc."
-    }
-  },
-  {
-    "id": 33,
-    "image": "https://robohash.org/217.131.101.153.png",
-    "lastName": "robs",
-    "username": "robohuha",
-    "phone": "235415718",
-    "age": "12",
-    "email": "hoh@gmail.com",
-    "address": "jha",
-    "company": {
-      "name": "lkjn",
-      "address": "lkjn",
-      "city": "lkj"
-    }
-  },
-  {
-    "id": 34,
-    "lastName": "dawda",
-    "username": "12ada",
-    "phone": "12313123",
-    "age": "12",
-    "email": "o@gmail.com",
-    "address": "2eqeq",
-    "company": {
-      "name": "daa",
-      "address": "da",
-      "city": "a"
-    }
-  },
-  {
-    "id": 35,
-    "image": "https://robohash.org/217.131.101.153.png",
-    "lastName": "ada",
-    "username": "ada",
-    "phone": "12",
-    "age": "12",
-    "email": "ozlemkayasaroglu@gmail.com",
-    "address": {
-      "address": "Tunahan Mah. 254.sk Sarıgül Sitesi B2-31 Blok Kat:13 Kapı No:54",
-      "city": "ETİMESGUT"
-    },
-    "company": {
-      "name": "Ulus",
-      "address": "Tunahan Mah. 254.sk Sarıgül Sitesi B2-31 Blok Kat:13 Kapı No:54",
-      "city": "ETİMESGUT"
-    }
   }
 ]

@@ -12,9 +12,9 @@ const JWT_SECRET = process.env.JWT_SECRET;
 
 router.post("/login", async (req, res) => {
   const { username, password } = req.body;
-  const userData = await fs.readFile("user.json", "utf8");
+  const userData = await fs.readFile("users.json", "utf8");
   const users = JSON.parse(userData);
-  const user = users.find((u) => u.username === username);
+  const user = users.find((users) => users.username === username);
 
   if (!JWT_SECRET) {
     throw new Error("JWT_SECRET is not defined in the environment variables.");

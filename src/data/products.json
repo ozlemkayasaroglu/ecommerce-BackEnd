@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "name": "Vitamin Contraption",
+    "name": "Vitamin Corporation",
     "category": "Health",
     "image": "https://robohash.org/doloremquesintcorrupti.png",
-    "price": "82",
-    "description": "Proin in mi ex.",
-    "features": "Vivamus eu leo vitae massa accumsan fermentum eu a mauris. Sed sit amet ex eros. Ut interdum laoreet elementum. Donec quis elit sit amet justo porttitor condimentum et nec urna. Integer ultricies viverra ipsum id luctus. Aliquam quis euismod felis. Ut varius sapien felis, sed maximus nisl molestie id."
+    "price": "23",
+    "description": "iyi hoş vs vs vs ",
+    "features": "awkhjaejhabenarw"
   },
   {
     "id": 2,
@@ -25,11 +25,6 @@
     "price": "62",
     "description": "Nunc faucibus nec diam mattis semper",
     "features": "Aenean pharetra maximus orci. Cras aliquam pharetra libero nec varius. Quisque nec libero odio. Nulla facilisi. Sed placerat semper finibus. Nulla eu rutrum dolor. Aliquam rutrum est est, vitae semper nisi sodales vitae. Ut maximus pretium ex sit amet malesuada. Cras pharetra iaculis urna porttitor vestibulum. Nunc pulvinar dui eu vulputate sagittis. Sed vel metus turpis. Integer lacinia, lacus sed accumsan tristique, nibh orci posuere turpis, nec placerat mauris tellus ac mi. Nunc velit mi, tincidunt faucibus eleifend ac, iaculis in nulla."
-  },
-  {
-    "id": 4,
-    "name": "mor robot",
-    "image": "https://robohash.org/40F.png"
   },
   {
     "id": 5,
@@ -104,39 +99,21 @@
     "features": "dada."
   },
   {
+    "id": 12,
+    "image": "https://robohash.org/IPL.png",
+    "name": "hodurur",
+    "category": "Health",
+    "price": "12",
+    "description": "aDd",
+    "features": "dajehbanbwna"
+  },
+  {
     "id": 13,
-    "name": "mor robot",
-    "image": "https://robohash.org/40F.png",
-    "price": "50",
-    "category": "entertainment",
-    "description": "her mor eşyayı alır sever",
-    "features": "çok özelliklidir.."
-  },
-  {
-    "id": 14,
-    "image": "https://robohash.org/V2T.png",
-    "name": "voodoo",
-    "category": "work",
-    "price": "50",
-    "description": "deneme evimizdeki ağaçta üretildi",
-    "features": "dada."
-  },
-  {
-    "id": 15,
-    "image": "https://robohash.org/V2T.png",
-    "name": "voodoo",
-    "category": "work",
-    "price": "50",
-    "description": "deneme evimizdeki ağaçta üretildi",
-    "features": "dada."
-  },
-  {
-    "id": 16,
-    "image": "httpdas://robohash.org/%C3%BCr%C3%BCn",
-    "name": "darohuk",
-    "category": "Hodame Dec",
-    "price": "3",
-    "description": "qweqewe",
-    "features": "bu decorasyon iyidit hoşdadadadatur"
+    "image": "https://robohash.org/punch needle",
+    "name": "SDSFAFAASEA",
+    "category": "DAWA",
+    "price": "34",
+    "description": "SDAFDSA",
+    "features": "DAWA"
   }
 ]
