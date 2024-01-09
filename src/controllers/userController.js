@@ -2,6 +2,8 @@ import express from "express";
 import path, { dirname, resolve } from "path";
 import fs from "fs";
 import { fileURLToPath } from "url";
+import bcrypt from "bcryptjs";
+
 
 const router = express.Router();
 
@@ -42,7 +44,7 @@ router.post("/", async (request, response) => {
       lastName: request.body.lastName,
       email: request.body.email,
       username: request.body.username,
-      password: request.body.password,
+      password: await bcrypt.hash(request.body.password,10),
       address: {
         address: request.body.address.address,
         city: request.body.address.city,
@@ -119,6 +121,8 @@ router.delete("/:id", async (request, response) => {
     response.status(401).json({ message: "kullanıcı silme hatası" });
   }
 });
+
+
 
 const getUsers = () => {
   return new Promise((resolve, reject) => {

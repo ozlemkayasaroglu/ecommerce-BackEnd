@@ -5,6 +5,7 @@ import path, { dirname, resolve } from "path";
 import { fileURLToPath } from "url";
 import bcrypt from "bcryptjs";
 import { serialize } from "cookie";
+import jwt from "jsonwebtoken";
 
 dotenv.config();
 
@@ -13,7 +14,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const userDataPath = path.join(__dirname, "..", "data", "users.json");
 
-const JWT_SECRET = process.env.JWT_SECRET;
+const JWT_SECRET = process.env.JWT_SECRET || "nosoup4u";
 
 router.post("/login", async (request, response) => {
   const { username, password } = request.body;
@@ -47,11 +48,9 @@ router.post("/login", async (request, response) => {
         message: "kullanıcı doğrulandı",
         token: token,
       });
-
     } else {
       throw new Error("şifre hatalı");
     }
-    
   } catch (e) {
     response.status(500).json({
       message: e.message,
@@ -76,7 +75,7 @@ router.get("/logout", (req, res) => {
     });
   }
 
-  const serialized = serialize("JWTToken", "", {
+  const serialized = serialize("echommerceToken", "", {
     httpOnly: true,
     secure: false,
     maxAge: -1,

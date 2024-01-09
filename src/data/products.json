@@ -4,7 +4,7 @@
     "name": "Vitamin Corporation",
     "category": "Health",
     "image": "https://robohash.org/doloremquesintcorrupti.png",
-    "price": "23",
+    "price": "12",
     "description": "iyi hoş vs vs vs ",
     "features": "awkhjaejhabenarw"
   },
@@ -106,5 +106,14 @@
     "price": "34",
     "description": "SDAFDSA",
     "features": "DAWA"
+  },
+  {
+    "id": 14,
+    "image": "https://robohash.org/IPL.png",
+    "name": "Kupa bardak",
+    "category": "work items",
+    "price": "12",
+    "description": "dada",
+    "features": "cok guzel kupa"
   }
 ]

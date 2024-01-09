@@ -3,6 +3,7 @@ import cors from "cors";
 import bodyParser from "body-parser";
 import cookieParser from "cookie-parser";
 
+
 // controllers
 import userController from './controllers/userController.js';
 import productController from './controllers/productController.js';
@@ -16,11 +17,11 @@ var corsOptions = {
   origin: LOCAL_HOST,
   credentials: true,
   methods: "GET, POST, PUT, DELETE",
-  allowedHeaders: "Content Type, Authorization",
+  allowedHeaders: "Content-Type, Authorization",
   optionsSuccessStatus: 200,
 };
-
-app.use(cors());
+console.log(corsOptions);
+app.use(cors(corsOptions));
 app.use(cookieParser());
 app.use(bodyParser.json());
 
